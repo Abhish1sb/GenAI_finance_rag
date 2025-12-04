@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# # Data files
+# *.csv
+# *.xlsx
+# *.json
+# data/raw/
+# data/processed/
+# !data/processed/faiss_index/
+# datasets/
+
+# # FAISS vector store (generated artifacts)
+# *.faiss
+# *.pkl
+
+# # Logs
+# *.log
+# logs/
+
+# # Dependencies
+# requirements.txt.bak
+
+# # OS
+# Thumbs.db
+
+# Project specific
+.cache/
+temp/
+tmp/
